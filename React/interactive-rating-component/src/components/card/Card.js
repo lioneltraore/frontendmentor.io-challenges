@@ -1,4 +1,5 @@
-import Icon from "../Icon/Icon";
+import Icon from "../icon/Icon";
+import Score from "../score/Score";
 
 const Card = () => {
   return (
@@ -9,6 +10,7 @@ const Card = () => {
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
+      <Score />
     </div>
   );
 };
