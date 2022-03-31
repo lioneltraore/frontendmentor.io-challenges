@@ -1,6 +1,6 @@
 const ScoreItem = (props) => {
     return (
-        <div>{props.level}</div>
+        <div className="bg-light">{props.level}</div>
     );
 }
 
