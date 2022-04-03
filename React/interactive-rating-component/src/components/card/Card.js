@@ -1,9 +1,10 @@
+import Button from "../Button/Button";
 import Icon from "../icon/Icon";
 import Score from "../score/Score";
 
 const Card = () => {
   return (
-    <div className="bg-dark rounded-xl p-6">
+    <div className="bg-dark rounded-xl p-6 max-w-[350px]">
       <Icon />
       <h2 className="text-white text-2xl mb-5">How did we do?</h2>
       <p className="text-default">
@@ -11,6 +12,7 @@ const Card = () => {
         appreciated to help us improve our offering!
       </p>
       <Score />
+      <Button label="Submit" />
     </div>
   );
 };
