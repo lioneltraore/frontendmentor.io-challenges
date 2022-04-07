@@ -1,9 +1,10 @@
 import Card from "./components/card/Card";
+import ScoringBoard from "./components/score/ScoringBoard";
 
 function App() {
   return (
     <div className="bg-darker flex flex-col items-center justify-center h-screen p-6 text-lighter">
-      <Card />
+      <ScoringBoard />
     </div>
   );
 }
