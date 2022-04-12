@@ -1,4 +1,3 @@
-import Card from "./components/card/Card";
 import ScoringBoard from "./components/score/ScoringBoard";
 
 function App() {
