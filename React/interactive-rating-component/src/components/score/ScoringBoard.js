@@ -5,13 +5,14 @@ import Icon from "../icon/Icon";
 import Score from "../score/Score";
 
 const ScoringBoard = (props) => {
-  const [score, setScore] = useState(1);
+  const [score, setScore] = useState(0);
 
   const scoreHandler = (userScore) => {
-    console.log(typeof(userScore));
+    setScore(userScore);
   }
 
   const submitScoreHandler = () => {
+    console.log('button clicked');
     props.onSubmitScoring(score);
   }
 
@@ -23,7 +24,7 @@ const ScoringBoard = (props) => {
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
-      <Score />
+      <Score onSelectScore={scoreHandler} />
       <Button type="button" onClick={submitScoreHandler} label="Submit" />
     </Card>
   );

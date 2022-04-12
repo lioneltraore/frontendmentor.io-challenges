@@ -1,12 +1,13 @@
 import { useState } from "react";
 import ScoreItem from "./ScoreItem";
 
-const Score = () => {
+const Score = (props) => {
     const scores = [1, 2, 3, 4, 5];
     const [activeScore, setActiveScore] = useState(0);
 
     const selectScoreHandler = (activeScore) => {
         setActiveScore(activeScore);
+        props.onSelectScore(activeScore);
         console.log(activeScore);
     }
 
