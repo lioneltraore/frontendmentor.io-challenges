@@ -18,14 +18,14 @@ const ScoringBoard = (props) => {
 
   return (
     <Card>
-      <Icon />
-      <h2 className="mb-5 text-2xl text-white">How did we do?</h2>
+      <Icon className="mb-5" />
+      <h2 className="mb-2 text-2xl text-white ">How did we do?</h2>
       <p className="text-default">
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
       <Score onSelectScore={scoreHandler} />
-      <Button type="button" onClick={submitScoreHandler} label="Submit" />
+      <Button onClick={submitScoreHandler} label="Submit" />
     </Card>
   );
 };

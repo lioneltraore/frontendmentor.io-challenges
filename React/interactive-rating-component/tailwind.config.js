@@ -4,6 +4,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        'default': '30px'
+      },
       colors: {
         'primary': '#fb7413',
         'primary-light': '#FFEFC5',

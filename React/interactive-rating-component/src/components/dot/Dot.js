@@ -1,9 +1,13 @@
 const Dot = (props) => {
-    return (
-        <div className='flex w-10 h-10 justify-center overflow-hidden items-center bg-light rounded-full mb-5'>
-            {props.children}
-        </div>
-    )
-}
+  return (
+    <div onClick={props.onClick}
+      className={`${"flex items-center justify-center w-10 h-10 rounded-full bg-light"} ${
+        props.className
+      }`}
+    >
+      {props.children}
+    </div>
+  );
+};
 
 export default Dot;
