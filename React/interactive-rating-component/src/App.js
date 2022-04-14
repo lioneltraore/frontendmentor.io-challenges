@@ -13,10 +13,16 @@ function App() {
     }
   };
 
+  const closeHandler = () => {
+    console.log("modal close");
+    setScoring(0);
+    setUpdate(false);
+  }
+
   return (
     <div className="flex flex-col items-center justify-center h-screen p-6 bg-darker text-lighter">
       {!update && <ScoringBoard onSubmitScoring={scoringHandler} />}
-      {update && <Feedback score={scoring} />}
+      {update && <Feedback close={closeHandler} score={scoring} />}
     </div>
   );
 }

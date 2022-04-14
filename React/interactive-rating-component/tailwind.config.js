@@ -14,6 +14,7 @@ module.exports = {
         'lighter': '#959eac',
         'dark': '#1F2630',
         'darker': '#121417',
+        'backdrop': '#000000e1'
       },
       fontSize: {
         'default': '15px'

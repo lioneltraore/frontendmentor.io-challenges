@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Button from "../Button/Button";
-import Card from "../card/Card";
+import Button from "../UI/Button/Button";
+import Card from "../UI/card/Card";
 import Icon from "../icon/Icon";
 import Score from "../score/Score";
 
