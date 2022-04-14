@@ -1,3 +1,4 @@
+import { AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import Feedback from "./components/Feedback/Feedback";
 import ScoringBoard from "./components/score/ScoringBoard";
@@ -22,7 +23,9 @@ function App() {
   return (
     <div className="flex flex-col items-center justify-center h-screen p-6 bg-darker text-lighter">
       {!update && <ScoringBoard onSubmitScoring={scoringHandler} />}
+      <AnimatePresence initial={false} exitBeforeEnter={true} onExitComplete={()=> null}>
       {update && <Feedback close={closeHandler} score={scoring} />}
+      </AnimatePresence>
     </div>
   );
 }
