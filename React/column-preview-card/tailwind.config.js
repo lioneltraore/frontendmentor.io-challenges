@@ -10,6 +10,9 @@ module.exports = {
         'very-dark-cyan': "#004241",
         'transparent': "#ffffffbf",
         'light-gray': "#f2f2f2"
+      },
+      fontSize: {
+        'default': '15px'
       }
     },
   },

@@ -16,9 +16,26 @@ const CardSection = () => {
 
     return (
         <div>
-            <Card icon={iconSedans} title="sedans" body={bodySedan} />
-            <Card icon={iconSuv} title="suvs" body={bodySuv} />
-            <Card icon={iconLuxury} title="luxury" body={bodyLuxury}  />
+            <Card 
+            color="bright-orange"
+            icon={iconSedans} 
+            title="sedans" 
+            body={bodySedan} 
+            />
+
+            <Card 
+            color="dark-cyan"
+            icon={iconSuv} 
+            title="suvs" 
+            body={bodySuv} 
+            />
+
+            <Card 
+            color="very-dark-cyan"
+            icon={iconLuxury} 
+            title="luxury" 
+            body={bodyLuxury}  
+            />
         </div>
     );
 }
