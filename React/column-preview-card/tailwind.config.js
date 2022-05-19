@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{html,js}"
   ],
   theme: {
     extend: {
@@ -13,7 +13,10 @@ module.exports = {
       },
       fontSize: {
         'default': '15px'
-      }
+      },
+      fontFamily: {
+        'bsd': ['Big Shoulders Display', 'cursive'] 
+      },
     },
   },
   plugins: [],

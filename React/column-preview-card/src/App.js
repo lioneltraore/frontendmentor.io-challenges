@@ -1,4 +1,4 @@
-import CardSection from "./components/card-section/card-section";
+import CardSection from "./components/CardSection/CardSection";
 
 function App() {
   return (

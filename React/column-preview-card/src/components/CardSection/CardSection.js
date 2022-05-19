@@ -1,4 +1,4 @@
-import Card from "../card/card";
+import Card from "../Card/Card";
 import iconSuv from "../../assets/images/icon-suvs.svg";
 import iconLuxury from "../../assets/images/icon-luxury.svg";
 import iconSedans from "../../assets/images/icon-sedans.svg";
@@ -15,23 +15,23 @@ const CardSection = () => {
     rental and arrive in style.`;
 
     return (
-        <div>
+        <div className="overflow-hidden rounded-lg">
             <Card 
-            color="bright-orange"
+           className="bg-bright-orange text-bright-orange"
             icon={iconSedans} 
             title="sedans" 
             body={bodySedan} 
             />
 
             <Card 
-            color="dark-cyan"
+            className="bg-dark-cyan text-dark-cyan"
             icon={iconSuv} 
             title="suvs" 
             body={bodySuv} 
             />
 
             <Card 
-            color="very-dark-cyan"
+            className="bg-very-dark-cyan text-very-dark-cyan"
             icon={iconLuxury} 
             title="luxury" 
             body={bodyLuxury}  

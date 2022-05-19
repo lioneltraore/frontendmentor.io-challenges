@@ -1,16 +1,16 @@
-import Button from "../button/button";
+import Button from "../Button/Button";
 
 
 const Card = (props) => {
     return (
-        <div className={`p-12 text-transparent text-default bg-${props.color}`}>
+        <div className={`${props.className} p-12 text-default`}>
             <img src={props.icon} alt={props.title} />
 
-            <h2>{props.title}</h2>
+            <h2 className="my-8 text-4xl uppercase text-light-gray font-bsd">{props.title}</h2>
 
-            <p className="leading-7">{props.body}</p>
+            <p className="leading-7 text-transparent mb-7">{props.body}</p>
 
-            <Button className={`text-${props.color}`}>Learn More</Button>
+            <Button>Learn More</Button>
 
         </div>
     );
