@@ -15,7 +15,7 @@ const CardSection = () => {
     rental and arrive in style.`;
 
     return (
-        <div className="overflow-hidden rounded-lg">
+        <div className="overflow-hidden rounded-lg lg:grid lg:grid-cols-3">
             <Card 
            className="bg-bright-orange text-bright-orange"
             icon={iconSedans} 
