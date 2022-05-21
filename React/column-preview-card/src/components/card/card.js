@@ -8,7 +8,7 @@ const Card = (props) => {
 
             <h2 className="my-8 text-4xl uppercase text-light-gray font-bsd">{props.title}</h2>
 
-            <p className="leading-7 text-transparent mb-7">{props.body}</p>
+            <p className="mb-6 leading-7 text-transparent lg:mb-16">{props.body}</p>
 
             <Button>Learn More</Button>
 
