@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [See the solution](https://www.frontendmentor.io/solutions/column-preview-card-using-react-and-tailwind-css-gcSZxfIamZ)
-- Live Site URL: [Live site](https://cute-marshmallow-06909a.netlify.app/)
+- Live Site URL: [Live site](https://col-prev.lioneltraore.com)
 
 
 ### Built with
