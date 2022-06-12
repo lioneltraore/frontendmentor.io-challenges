@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [See the solution](https://www.frontendmentor.io/solutions/rating-component-using-react-tailwind-css-and-framer-motion-HJoitvu4c)
-- Live Site URL: [Live site](https://darling-tiramisu-55ae14.netlify.app/)
+- Live Site URL: [Live site](https://irc.lioneltraore.com)
 
 
 ### Built with
