@@ -1,10 +1,10 @@
-
-
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+    <span className="block text-3xl font-outfit-light">Hello world!</span>
+      <span className="block text-3xl font-outfit">Hello world!</span>
+      <span className="block text-lg font-outfit-semibold text-soft-blue">Hello world!</span>
+    </>
   );
 }
 
