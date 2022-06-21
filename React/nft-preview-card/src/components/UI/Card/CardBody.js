@@ -1,7 +1,7 @@
 const CardBody = (props) => {
     return (
         <>
-            <h1 className="text-white font-outfit-semibold mt-5 text-[22px]">Equilibrium #3429</h1>
+            <h1 className="text-white font-outfit-semibold mt-5 text-[22px] cursor-pointer hover:text-cyan">Equilibrium #3429</h1>
 
             <p className="mt-2 font-outfit-light">
                 Our Equilibrium collection promotes balance and calm.
