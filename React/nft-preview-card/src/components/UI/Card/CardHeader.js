@@ -4,14 +4,12 @@ const CardHeader = (props) => {
 
     const [isHover, setIsHover] = useState('');
 
-    const onMouseEnter = e => {
+    const onMouseEnter = () => {
         setIsHover(true);
-        console.log("entered");
     };
 
-    const onMouseLeave = e => {
+    const onMouseLeave = () => {
         setIsHover(false);
-        console.log("left");
     };
     
     return (
