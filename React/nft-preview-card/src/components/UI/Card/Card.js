@@ -8,7 +8,7 @@ import CardFooter from "./CardFooter";
 
 const Card = () => {
     return (
-        <div className="p-6 bg-dark-blue-secondary rounded-2xl text-soft-blue max-w-[350px]">
+        <div className="p-6 bg-dark-blue-secondary rounded-2xl text-soft-blue drop-shadow-2xl max-w-[350px]">
             <CardHeader img={illustration} title={"equilibrium"} />
             <CardBody priceIcon={priceIcon} 
             priceIconTile="ethereum" clockIcon={clockIcon} clockIconTile="clock" />
