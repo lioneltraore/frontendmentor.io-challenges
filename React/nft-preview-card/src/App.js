@@ -2,9 +2,9 @@ import Card from "./components/UI/Card/Card";
 
 function App() {
   return (
-    <div className="h-screen bg-dark-blue-main px-6 flex items-center justify-center">
+    <main className="flex items-center justify-center h-screen px-6 bg-dark-blue-main">
       <Card />
-    </div>
+    </main>
   );
 }
 
