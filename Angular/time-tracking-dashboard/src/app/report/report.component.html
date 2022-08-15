@@ -1,1 +1,12 @@
-<p>report works!</p>
+<!-- Blueberry block -->
+<div class="bg-dark-blue rounded-2xl">
+
+  <!-- Picton Blue block -->
+  <div class="flex justify-between px-5 py-4 text-desaturated-blue">
+    <span
+      *ngFor="let period of periods"
+      (click)="setActivePeriod(period)"
+      [ngClass]="{'text-white': activePeriod === period}"
+    >{{ period }}</span>
+  </div>
+</div>

@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReportComponent implements OnInit {
 
+  periods: string[] = ["Daily", "Weekly", "Monthly"];
+  activePeriod: string = "Daily";
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  setActivePeriod(period: string): void {
+    this.activePeriod = period;
   }
 
 }
