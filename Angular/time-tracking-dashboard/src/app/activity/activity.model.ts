@@ -1,15 +1,15 @@
 export interface IActivity {
   title: string;
-  timeframes: IDuration;
-}
-
-export interface IDuration {
-  daily: ITimeframe;
-  weekly: ITimeframe;
-  monthly: ITimeframe;
+  timeframes: ITimeframe;
 }
 
 export interface ITimeframe {
+  daily: ITimeframeDetail;
+  weekly: ITimeframeDetail;
+  monthly: ITimeframeDetail;
+}
+
+export interface ITimeframeDetail {
   current: number;
   previous: number;
 }
