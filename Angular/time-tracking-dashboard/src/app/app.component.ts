@@ -8,13 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'time-tracking-dashboard';
   activities: IActivity[] = [];
+  sampleActivity!: IActivity;
 
   constructor(private activityService: ActivityService) {}
 
   ngOnInit(): void {
     this.activities = this.activityService.getActivities();
+    this.sampleActivity = this.activities[0];
   }
 
 

@@ -12,4 +12,59 @@ export class ActivityService {
   getActivities(): IActivity[] {
     return ACTIVITIES;
   }
+
+  getImage(title: string): string {
+    let url = "";
+
+    switch(title) {
+      case "Work":
+        url = "/assets/images/icon-work.svg";
+      break;
+      case "Play":
+        url = "/assets/images/icon-play.svg";
+      break;
+      case "Study":
+        url = "/assets/images/icon-study.svg";
+      break;
+      case "Exercise":
+        url = "/assets/images/icon-exercise.svg";
+      break;
+      case "Social":
+        url = "/assets/images/icon-social.svg";
+      break;
+      case "Self Care":
+        url = "/assets/images/icon-self-care.svg";
+      break;
+    }
+
+    return url;
+  }
+
+  getColor(title: string): string {
+    let color = "";
+
+    switch(title) {
+      case "Work":
+        color = "desaturated-red";
+      break;
+      case "Play":
+        color = "soft-blue";
+      break;
+      case "Study":
+        color = "light-red";
+      break;
+      case "Exercise":
+        color = "lime-green";
+      break;
+      case "Social":
+        color = "violet";
+      break;
+      case "Self Care":
+        color = "soft-orange";
+      break;
+    }
+
+    return color;
+  }
+
 }
