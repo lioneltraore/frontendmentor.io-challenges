@@ -45,22 +45,22 @@ export class ActivityService {
 
     switch(title) {
       case "Work":
-        color = "desaturated-red";
+        color = "bg-desaturated-red";
       break;
       case "Play":
-        color = "soft-blue";
+        color = "bg-soft-blue";
       break;
       case "Study":
-        color = "light-red";
+        color = "bg-light-red";
       break;
       case "Exercise":
-        color = "lime-green";
+        color = "bg-lime-green";
       break;
       case "Social":
-        color = "violet";
+        color = "bg-violet";
       break;
       case "Self Care":
-        color = "soft-orange";
+        color = "bg-soft-orange";
       break;
     }
 
