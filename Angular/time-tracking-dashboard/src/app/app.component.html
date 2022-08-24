@@ -2,9 +2,8 @@
 <main
   class="grid min-h-screen grid-cols-1 gap-4 px-4 text-base justify-items-center bg-very-dark-blue py-17 text-pale-blue">
   <!-- report component -->
-  <app-report></app-report>
+  <app-report (changePeriod)="setActivePeriod($event)" ></app-report>
 
   <!-- activity component -->
-  <!-- <app-activity *ngFor="let activity of activities" [activity]="activity"></app-activity> -->
-  <app-activity [activity]="sampleActivity"></app-activity>
+  <app-activity *ngFor="let activity of activities" [activity]="activity" [period]="activePeriod"></app-activity>
 </main>

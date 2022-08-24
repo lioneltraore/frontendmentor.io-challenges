@@ -10,14 +10,31 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ActivityComponent implements OnInit {
 
   @Input() activity!: IActivity;
+  @Input() period!: string;
 
-  colors = {
-    work: "bg-desaturated-red"
-  };
+  current: string = "";
+  previous: string = "";
 
   constructor(private activityService: ActivityService) { }
 
   ngOnInit(): void {
+  }
+
+  ngOnChanges() {
+    if(this.period === "Daily") {
+      this.current = this.activity.timeframes.daily.current + "hrs";
+      this.previous = "Yesterday - " + this.activity.timeframes.daily.previous + "hrs";
+    }
+
+    if(this.period === "Weekly") {
+      this.current = this.activity.timeframes.weekly.current + "hrs";
+      this.previous = "Last week - " + this.activity.timeframes.weekly.previous + "hrs";
+    }
+
+    if(this.period === "Monthly") {
+      this.current = this.activity.timeframes.monthly.current + "hrs";
+      this.previous = "Last month - " + this.activity.timeframes.monthly.previous + "hrs";
+    }
   }
 
   getColor(title: string) {

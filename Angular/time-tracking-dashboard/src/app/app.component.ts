@@ -9,15 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   activities: IActivity[] = [];
-  sampleActivity!: IActivity;
+  activePeriod = "Daily";
 
   constructor(private activityService: ActivityService) {}
 
   ngOnInit(): void {
     this.activities = this.activityService.getActivities();
-    this.sampleActivity = this.activities[0];
   }
 
-
+  setActivePeriod(period: string): void {
+    this.activePeriod = period;
+  }
 
 }

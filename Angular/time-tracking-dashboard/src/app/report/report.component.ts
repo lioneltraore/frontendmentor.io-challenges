@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-report',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./report.component.scss']
 })
 export class ReportComponent implements OnInit {
+
+  @Output() changePeriod = new EventEmitter();
 
   periods: string[] = ["Daily", "Weekly", "Monthly"];
   activePeriod: string = "Daily";
@@ -17,6 +19,7 @@ export class ReportComponent implements OnInit {
 
   setActivePeriod(period: string): void {
     this.activePeriod = period;
+    this.changePeriod.emit(this.activePeriod);
   }
 
 }
