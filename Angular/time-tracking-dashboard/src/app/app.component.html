@@ -1,8 +1,8 @@
 <!-- main container -->
 <main
-  class="grid min-h-screen grid-cols-1 gap-4 px-4 text-base justify-items-center bg-very-dark-blue py-17 text-pale-blue">
+  class="grid grid-cols-1 gap-4 px-4 py-17 xl:grid-cols-4 xl:grid-rows-2">
   <!-- report component -->
-  <app-report (changePeriod)="setActivePeriod($event)" ></app-report>
+  <app-report class="xl:row-span-2" (changePeriod)="setActivePeriod($event)" ></app-report>
 
   <!-- activity component -->
   <app-activity *ngFor="let activity of activities" [activity]="activity" [period]="activePeriod"></app-activity>
