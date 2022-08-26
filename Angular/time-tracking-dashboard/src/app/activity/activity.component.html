@@ -1,5 +1,5 @@
 <!-- Majorelle Blue block -->
-<div [ngClass]="[getColor(activity.title), 'rounded-2xl', 'w-20']">
+<div [ngClass]="[getColor(activity.title), 'rounded-2xl', 'w-20', 'xl:w-19']">
 
   <!-- Platinum block -->
   <div class="relative h-8 overflow-hidden">
@@ -7,10 +7,10 @@
   </div>
 
   <!-- Medium Spring Green block -->
-  <div class="px-4 py-5 bg-dark-blue rounded-2xl">
+  <div class="px-4 py-5 bg-dark-blue rounded-2xl xl:p-7">
 
     <!-- Apple Green block -->
-    <div class="flex items-center justify-between">
+    <div class="flex items-center justify-between xl:mb-4">
       <h2 class="font-medium text-white">{{activity.title}}</h2>
       <div>
         <img src="/assets/images/icon-ellipsis.svg" alt="more" />
@@ -18,8 +18,8 @@
     </div>
 
     <!-- Deep Pink block -->
-    <div class="flex items-center justify-between">
-      <span class="text-xl font-light text-white">{{ current }}</span>
+    <div class="flex items-center justify-between xl:flex-col xl:items-start">
+      <span class="text-xl font-light text-white xl:text-3xl">{{ current }}</span>
       <span class="text-tiny">{{ previous }}</span>
     </div>
   </div>
