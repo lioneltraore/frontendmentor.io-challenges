@@ -26,7 +26,8 @@ module.exports = {
         "very-dark-blue": "#0F1424",
         "dark-blue": "#1C1F4A",
         "desaturated-blue": "#6F76C8",
-        "pale-blue": "#BDC1FF"
+        "pale-blue": "#BDC1FF",
+        "hover-blue": "#34397B"
       },
       spacing: {
         "1": "4px",
