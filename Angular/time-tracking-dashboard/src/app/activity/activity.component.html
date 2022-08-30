@@ -1,16 +1,16 @@
 <!-- Activity -->
-<div [ngClass]="[getColor(activity.title), 'rounded-2xl', 'w-20', 'xl:w-19']">
+<div [ngClass]="[getColor(activity.title), 'rounded-2xl', 'w-12', 'xl:w-11']">
 
   <!-- Activity Header -->
-  <div class="relative h-8 overflow-hidden">
-    <img class="absolute -mt-2 right-4 w-13" [src]="getImage(activity.title)" [alt]="activity.title" />
+  <div class="relative h-6 overflow-hidden">
+    <img class="absolute w-8 -mt-1 right-3" [src]="getImage(activity.title)" [alt]="activity.title" />
   </div>
 
   <!-- Activity Body -->
-  <div class="px-4 py-5 bg-dark-blue rounded-2xl xl:p-7 xl:cursor-pointer xl:hover:bg-hover-blue">
+  <div class="px-3 py-4 bg-dark-blue rounded-2xl xl:p-5 xl:cursor-pointer xl:hover:bg-hover-blue">
 
     <!-- Activity Title -->
-    <div class="flex items-center justify-between xl:mb-4">
+    <div class="flex items-center justify-between xl:mb-3">
       <h2 class="font-medium text-white">{{activity.title}}</h2>
       <div>
         <img src="/assets/images/icon-ellipsis.svg" alt="more" />
