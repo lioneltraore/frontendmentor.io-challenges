@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-time-tracking-dashboard-using-angular-and-tailwind-LDWNsvzrAb)
+- Live Site URL: [Add live site URL here](https://sensational-chimera-8046b2.netlify.app/)
 
 ## My process
 - I started by decomposing the design in 2 types of components (report component and activity component)
@@ -42,7 +42,6 @@ Users should be able to:
   - [x] Data sharing from parent to child component
   - [x] Data sharing from child to parent component
 
-You can find a step-by-step article of my process [here](blog.lioneltraore.com)
 
 ### Built with
 
