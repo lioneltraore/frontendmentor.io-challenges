@@ -28,12 +28,12 @@ export class ActivityComponent implements OnInit {
 
     if(this.period === "Weekly") {
       this.current = this.activity.timeframes.weekly.current + "hrs";
-      this.previous = "Last week - " + this.activity.timeframes.weekly.previous + "hrs";
+      this.previous = "Last Week - " + this.activity.timeframes.weekly.previous + "hrs";
     }
 
     if(this.period === "Monthly") {
       this.current = this.activity.timeframes.monthly.current + "hrs";
-      this.previous = "Last month - " + this.activity.timeframes.monthly.previous + "hrs";
+      this.previous = "Last Month - " + this.activity.timeframes.monthly.previous + "hrs";
     }
   }
 

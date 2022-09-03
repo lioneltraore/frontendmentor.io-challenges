@@ -1,27 +1,62 @@
-# TimeTrackingDashboard
+# Frontend Mentor - Time tracking dashboard solution
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Development server
+## Table of contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Overview
 
-## Build
+### The challenge
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Users should be able to:
 
-## Running unit tests
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Switch between viewing Daily, Weekly, and Monthly stats
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Screenshot
 
-## Running end-to-end tests
+![](./screenshot.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+### Links
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+- I started by decomposing the design in 2 types of components (report component and activity component)
+- Then I built the report component
+- After that built the activity component 
+- At the end I had an angular app using the concepts of:
+  - [x] Dependency injection
+  - [x] Data sharing from parent to child component
+  - [x] Data sharing from child to parent component
+
+You can find a step-by-step article of my process [here](blog.lioneltraore.com)
+
+### Built with
+
+- Semantic HTML5 markup
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Angular](https://angular.io/) - Angular framework
+- [Tailwind CSS](https://tailwindcss.com/) - For styles
+
+
+## Author
+
+- Website - [Lionel Traore](https://lioneltraore.com)
+- Frontend Mentor - [@lioneltraore](https://www.frontendmentor.io/profile/lioneltraore)
+- Twitter - [@traore_lionel](https://www.twitter.com/traore_lionel)
+
