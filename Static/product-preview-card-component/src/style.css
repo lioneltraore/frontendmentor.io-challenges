@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+@layer base {
+  @font-face {
+    font-family: Fraunces;
+    font-weight: 700;
+    src: url(/src/assets/font/Fraunces.ttf) format("truetype");
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
