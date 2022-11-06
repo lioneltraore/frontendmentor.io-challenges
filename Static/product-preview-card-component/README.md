@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Here](https://your-solution-url.com)
-- Live Site URL: [Here](https://your-live-site-url.com)
+- Live Site URL: [Here](https://lt-product-preview-card.netlify.app/)
 
 
 ### Built with
