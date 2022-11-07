@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Product preview card component</title>
     <meta charset="UTF-8" />
@@ -9,7 +9,7 @@
   </head>
   <body class="flex items-center justify-center h-screen px-4 bg-cream py-7">
     <!-- card -->
-    <div class="rounded-[10px] overflow-hidden max-w-[343px] md:flex md:max-w-[600px]">
+    <main class="rounded-[10px] overflow-hidden max-w-[343px] md:flex md:max-w-[600px]">
       <!-- image mobile -->
       <div class="md:hidden">
         <img src="./assets/image/image-product-mobile.jpg" alt="product-mobile" />
@@ -23,7 +23,7 @@
       <!-- details -->
       <div class="bg-white p-6 md:w-[300px] md:p-8">
         <span class="text-xs tracking-[4.5px] font-bold text-dark-g-blue">PERFUME</span>
-        <h1 class="font-fraunces font-bold text-[32px] leading-8 mt-3 md:mt-5">Gabrielle Essence Eau De Parfum</h1>
+        <h1 class="font-fraunces font-bold text-[32px] leading-8 mt-3 md:mt-5 md:max-w-[200px]">Gabrielle Essence Eau De Parfum</h1>
         
         <!-- description -->
         <p class="text-dark-g-blue mt-4 text-[14px] tracking-widest font-medium md:tracking-normal md:mt-6">
@@ -44,6 +44,6 @@
         </button>
       </div>
 
-    </div>
+    </main>
   </body>
 </html>
